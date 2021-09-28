@@ -1,5 +1,6 @@
 # Age Calculator
 Take age or year of birth as input from the user. Store the input in one variable. 
+And returns total numbers of years, months, weeks, and days.
 
  My code is handling all these errors like :
 
