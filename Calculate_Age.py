@@ -4,12 +4,11 @@ import datetime
 # try-excepts -> handling user inputs
 
 today = datetime.date.today()  # today's date (YYYY,MM,DD)
-print('\n\t\t\t\tNOTE : Enter Your DOB in "YYYY-MM-DD" formate \n')
 
 try:
-    dob_y = int(input('[ YYYY ] Birth Year : '))
-    dob_m = int(input('[ MM ] Birth Month : '))
-    dob_d = int(input('[ DD ] Birth Date : '))
+    dob_y = int(input('[ YYYY ] Birth Year: '))
+    dob_m = int(input('[ MM ] Birth Month: '))
+    dob_d = int(input('[ DD ] Birth Date: '))
 except:
     print('[-] Invaild input !')
     exit()
